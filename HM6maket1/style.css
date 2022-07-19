@@ -1,0 +1,124 @@
+.section {
+  padding: 185px 55px;
+  background: rgb(109, 201, 249);
+  background: linear-gradient(
+    27deg,
+    rgba(109, 201, 249, 1) 0%,
+    rgba(238, 238, 210, 1) 100%
+  );
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-logo {
+  margin-bottom: 38px;
+}
+.content__title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #71ab8f;
+  margin-bottom: 100px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 27px 32px 40px 33px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #e4e4e4;
+  border-radius: 30px;
+  margin-bottom: 218px;
+}
+.box__name {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.box__description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.35);
+  margin-bottom: 53px;
+}
+
+.form-items {
+  padding: 17px 25px 17px 25px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #e4e4e4;
+  border-radius: 15px;
+}
+
+.form__item {
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.35);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 707px;
+  background: none;
+  outline: none;
+}
+
+.submit {
+  border: none;
+  background: none;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.container_bot {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.aside {
+  display: flex;
+  gap: 54px;
+  justify-content: flex-end;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 13px 25px;
+  background: rgba(53, 143, 100, 0.1);
+  border: 1px solid rgba(53, 143, 100, 0.42);
+  border-radius: 30px;
+}
+.button__name {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #358f64;
+  font-family: "Inter";
+}
+
+.button:hover {
+  cursor: pointer;
+}
