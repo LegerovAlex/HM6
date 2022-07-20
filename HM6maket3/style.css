@@ -1,0 +1,205 @@
+.section {
+  background: #1e1e1e;
+  padding: 100px 25px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+  font-family: "Inter", sans-serif;
+}
+
+.box {
+  background: no-repeat url(./img/simon-moog-t-DlFD2QZcw-unsplash\ 1.jpg);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 375px;
+  min-height: 812px;
+  padding: 73px 30px 40px 30px;
+}
+
+.box__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+.box__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f2f2f2;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.button {
+  padding: 14px 85px;
+  background: #121212;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  font-family: inherit;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+/*  первая сделана  */
+
+.box-form {
+  background: #f3f3f3;
+  border-radius: 16px;
+  min-width: 375px;
+  max-height: 812px;
+  position: relative;
+  z-index: 99;
+}
+
+.box-inner {
+  padding: 107px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-inner__title {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 41px;
+  color: #121212;
+  margin-bottom: 35px;
+}
+
+.box-form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+}
+
+.form-inputs {
+  background: #dedede;
+  border-radius: 10px;
+  min-width: 318px;
+  padding: 14px 0px 14px 17px;
+}
+
+.form__input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #989898;
+}
+.form-inputs:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 16px 11px 16px;
+}
+
+.form-checkboxs {
+  display: flex;
+  max-width: 318px;
+  gap: 10px;
+}
+.form__checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+  outline: none;
+}
+.custom__checkbox {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: #dedede;
+  border-radius: 4px;
+}
+
+.form__checkbox:checked + .custom__checkbox {
+  align-items: center;
+  background: url(./img/svg/active.svg) no-repeat #dedede;
+  background-size: contain;
+  background-position: center;
+}
+.form__checkbox:focus + .custom__checkbox {
+  border: 1px solid black;
+}
+
+.form-checkboxs__text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #989898;
+  margin-bottom: 35px;
+}
+.form-checkboxs__text span {
+  color: black;
+}
+.form-checkboxs__text:hover {
+  cursor: pointer;
+}
+.box-buttons {
+  margin-bottom: 23px;
+}
+
+.box-inner__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 41px;
+}
+.box-inner__text a {
+  color: #989898;
+  text-decoration: none;
+}
+.box-inner__text span {
+  color: black;
+}
+.box-inner__sign {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #989898;
+  margin-bottom: 20px;
+}
+.social {
+  display: flex;
+  gap: 30px;
+}
+
+.social-items {
+  background: #121212;
+  border-radius: 6px;
+  padding: 15px 23px;
+}
+
+.box__img {
+  position: absolute;
+  right: 0px;
+}
+.box__img._bot {
+  top: 70%;
+  right: 30%;
+}
